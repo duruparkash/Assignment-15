@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>🍔 Canteen Management System</h1>
+
+    <label for="menu">Choose Food:</label>
+    <select id="menu">
+      <option value="5">Burger - $5</option>
+      <option value="3">Fries - $3</option>
+      <option value="2">Soda - $2</option>
+      <option value="7">Pizza Slice - $7</option>
+    </select>
+
+    <button onclick="addOrder()">Add to Order</button>
+
+    <hr />
+
+    <h3>Your Receipt</h3>
+    <ul id="order-list"></ul>
+    <h2 id="total-bill">Total Bill: $0</h2>
+    <script src="java.js"></script>
+  </body>
+</html>
